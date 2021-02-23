@@ -1,10 +1,14 @@
-import Button from './components/Button'
+import ExperienceBar from './components/ExperienceBar'
+
+import GlobalStyle from './styles/global'
 
 function App() {
   return (
-    <Button className="teste">
-      texto
-    </Button>
+    <GlobalStyle>
+      <div className="container">
+        <ExperienceBar />
+      </div>
+    </GlobalStyle>
   );
 }
 
