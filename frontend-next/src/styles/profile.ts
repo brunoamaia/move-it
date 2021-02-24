@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import theme from './theme'
 
 const profile = styled.div`
   display: flex;
@@ -17,7 +18,7 @@ const profile = styled.div`
   strong {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--title);
+    color: ${theme.title};
   }
 
   p {

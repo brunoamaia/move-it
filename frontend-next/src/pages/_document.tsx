@@ -34,8 +34,8 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
-          <link rel="icon" href="https://raw.githubusercontent.com/brunoamaia/brunoamaia.github.io/master/src/tillteBar.png" />
-          <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/brunoamaia/brunoamaia.github.io/master/src/tillteBar.png" />
+          <link rel="icon" href="favicon.png" type="image/png" />
+          <link rel="apple-touch-icon" href="favicon.png" type="image/png" />
 
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet" />

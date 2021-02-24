@@ -1,5 +1,8 @@
 import React from 'react'
+import Head from 'next/head'
+
 import CompletedChallenges from '../components/CompletedChallenges'
+import Countdown from '../components/Contdown'
 import ExperienceBar from '../components/ExperienceBar'
 import Profile from '../components/Profile'
 
@@ -8,16 +11,22 @@ import Styles from '../styles/landinpage'
 export default function Home() {
   return (
     <Styles>
-        <ExperienceBar />
+      <Head>
+        <title>Início | Move it</title>
+      </Head>
 
-        <section>
-          <div className="left-container">
-            <Profile />
-            <CompletedChallenges />
-          </div>
-          <div>
-          </div>
-        </section>
+      <ExperienceBar />
+
+      <section>
+        <div className="left-container">
+          <Profile />
+          <CompletedChallenges />
+          <Countdown />
+        </div>
+        <div>
+
+        </div>
+      </section>
     </Styles>
   )
 }
